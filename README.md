@@ -1,9 +1,9 @@
-# STM32_NUCLEO-F401RE_IHM01A1_ChibiOS
+## STM32_NUCLEO-F401RE_IHM01A1_ChibiOS
 Port of the X-NUCLEO-IHM01A1 Board Support Package and motorcontrol drivers to ChibiOS.
 
 **This software is in some places untested!**
 
-##ToDo
+### ToDo
 * Test 2nd and 3rd device
 * Implement separate init structs for each device
 * Implement separate flag interrupt and error handlers for each device
@@ -11,7 +11,7 @@ Port of the X-NUCLEO-IHM01A1 Board Support Package and motorcontrol drivers to C
 * Fix reset command
 * ...
 
-##Getting started
+### Getting started
 1. Build using `make`
 2. Upload binary to your ST Nucleo Board
 3. Open a serial console (38400, 8n1)
